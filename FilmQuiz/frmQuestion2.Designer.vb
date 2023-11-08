@@ -28,7 +28,7 @@ Partial Class frmQuestion2
         Me.btnAnswer1 = New System.Windows.Forms.CheckBox()
         Me.btnAnswer2 = New System.Windows.Forms.CheckBox()
         Me.btnAnswer3 = New System.Windows.Forms.CheckBox()
-        Me.btnNext = New System.Windows.Forms.Label()
+        Me.btnNext = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -83,13 +83,13 @@ Partial Class frmQuestion2
         '
         'btnNext
         '
-        Me.btnNext.AutoSize = True
-        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnNext.Location = New System.Drawing.Point(661, 373)
+        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNext.Location = New System.Drawing.Point(664, 371)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(41, 20)
+        Me.btnNext.Size = New System.Drawing.Size(82, 34)
         Me.btnNext.TabIndex = 5
         Me.btnNext.Text = "Next"
+        Me.btnNext.UseVisualStyleBackColor = True
         '
         'frmQuestion2
         '
@@ -115,5 +115,5 @@ Partial Class frmQuestion2
     Friend WithEvents btnAnswer1 As CheckBox
     Friend WithEvents btnAnswer2 As CheckBox
     Friend WithEvents btnAnswer3 As CheckBox
-    Friend WithEvents btnNext As Label
+    Friend WithEvents btnNext As Button
 End Class

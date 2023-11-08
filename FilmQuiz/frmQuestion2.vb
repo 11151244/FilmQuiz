@@ -1,3 +1,11 @@
 ﻿Public Class frmQuestion2
+    Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
+        If btnAnswer3.Checked Then
+            PlayerScore = PlayerScore + 1
+        End If
 
+        frmQuestion3.Show()
+
+        Me.Hide()
+    End Sub
 End Class

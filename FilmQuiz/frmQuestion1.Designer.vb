@@ -72,7 +72,7 @@ Partial Class frmQuestion1
         '
         'btnNext
         '
-        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnNext.Location = New System.Drawing.Point(638, 339)
         Me.btnNext.Name = "btnNext"
         Me.btnNext.Size = New System.Drawing.Size(79, 31)

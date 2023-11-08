@@ -73,9 +73,10 @@ Partial Class frmQuestion3
         '
         'btnNext
         '
-        Me.btnNext.Location = New System.Drawing.Point(582, 345)
+        Me.btnNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnNext.Location = New System.Drawing.Point(591, 345)
         Me.btnNext.Name = "btnNext"
-        Me.btnNext.Size = New System.Drawing.Size(75, 23)
+        Me.btnNext.Size = New System.Drawing.Size(94, 39)
         Me.btnNext.TabIndex = 4
         Me.btnNext.Text = "Next"
         Me.btnNext.UseVisualStyleBackColor = True
